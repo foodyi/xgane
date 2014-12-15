@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC2FE8201A3AA2ED0042E1A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2FE81F1A3AA2ED0042E1A4 /* Foundation.framework */; };
+		EC2FE8221A3AA2ED0042E1A4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2FE8211A3AA2ED0042E1A4 /* CoreFoundation.framework */; };
+		EC2FE8241A3AA2ED0042E1A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2FE8231A3AA2ED0042E1A4 /* UIKit.framework */; };
+		EC2FE82A1A3AA2ED0042E1A4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2FE8291A3AA2ED0042E1A4 /* SystemConfiguration.framework */; };
+		EC2FE82E1A3AA2ED0042E1A4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2FE82D1A3AA2ED0042E1A4 /* CFNetwork.framework */; };
+		EC2FE84B1A3AA2ED0042E1A4 /* CarrierPigeon.h in Headers */ = {isa = PBXBuildFile; fileRef = EC2FE84A1A3AA2ED0042E1A4 /* CarrierPigeon.h */; };
+		EC2FE84D1A3AA2ED0042E1A4 /* CarrierPigeon.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2FE84C1A3AA2ED0042E1A4 /* CarrierPigeon.m */; };
+		ECD2474D1A3B3F3600AFC82D /* StarterNotificationChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD2474B1A3B3F3600AFC82D /* StarterNotificationChecker.h */; };
+		ECD2474E1A3B3F3600AFC82D /* StarterNotificationChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD2474C1A3B3F3600AFC82D /* StarterNotificationChecker.m */; };
+		ECD247501A3BE88B00AFC82D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD2474F1A3BE88B00AFC82D /* libsqlite3.0.dylib */; };
+		ECE1FD311A3AC8EC00365E9F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE1FD301A3AC8EC00365E9F /* CoreTelephony.framework */; };
+		ECE1FD331A3AE11E00365E9F /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE1FD321A3AE11E00365E9F /* libz.1.2.5.dylib */; };
+		ECE1FD371A3AEA1C00365E9F /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = ECE1FD341A3AEA1C00365E9F /* FlashRuntimeExtensions.h */; };
+		ECE1FD381A3AEA1C00365E9F /* FRETypeConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = ECE1FD351A3AEA1C00365E9F /* FRETypeConversion.h */; };
+		ECE1FD391A3AEA1C00365E9F /* FRETypeConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE1FD361A3AEA1C00365E9F /* FRETypeConversion.m */; };
+		ECE1FD8F1A3B281200365E9F /* XGPush.h in Headers */ = {isa = PBXBuildFile; fileRef = ECE1FD8C1A3B281200365E9F /* XGPush.h */; };
+		ECE1FD901A3B281200365E9F /* XGSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = ECE1FD8D1A3B281200365E9F /* XGSetting.h */; };
+		ECE1FD921A3B34C000365E9F /* libXGSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE1FD911A3B34C000365E9F /* libXGSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC2FE8431A3AA2ED0042E1A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2FE8141A3AA2ED0042E1A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2FE81B1A3AA2ED0042E1A4;
+			remoteInfo = CarrierPigeon;
+		};
+		EC2FE8451A3AA2ED0042E1A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2FE8141A3AA2ED0042E1A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2FE83E1A3AA2ED0042E1A4;
+			remoteInfo = CarrierPigeon.ane;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC2FE81C1A3AA2ED0042E1A4 /* libCarrierPigeon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCarrierPigeon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2FE81F1A3AA2ED0042E1A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC2FE8211A3AA2ED0042E1A4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		EC2FE8231A3AA2ED0042E1A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC2FE8291A3AA2ED0042E1A4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EC2FE82D1A3AA2ED0042E1A4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EC2FE83F1A3AA2ED0042E1A4 /* CarrierPigeon.ane */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = CarrierPigeon.ane; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2FE8421A3AA2ED0042E1A4 /* DebugCarrierPigeonAIRApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebugCarrierPigeonAIRApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2FE8491A3AA2ED0042E1A4 /* CarrierPigeon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarrierPigeon-Prefix.pch"; sourceTree = "<group>"; };
+		EC2FE84A1A3AA2ED0042E1A4 /* CarrierPigeon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarrierPigeon.h; sourceTree = "<group>"; };
+		EC2FE84C1A3AA2ED0042E1A4 /* CarrierPigeon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarrierPigeon.m; sourceTree = "<group>"; };
+		EC2FE84E1A3AA2ED0042E1A4 /* extension.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = extension.xml; sourceTree = "<group>"; };
+		EC2FE84F1A3AA2ED0042E1A4 /* platformoptions.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = platformoptions.xml; sourceTree = "<group>"; };
+		EC2FE8501A3AA2ED0042E1A4 /* generateANE.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = generateANE.sh; sourceTree = "<group>"; };
+		EC2FE8511A3AA2ED0042E1A4 /* debugIPA.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = debugIPA.sh; sourceTree = "<group>"; };
+		ECD2474B1A3B3F3600AFC82D /* StarterNotificationChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarterNotificationChecker.h; sourceTree = "<group>"; };
+		ECD2474C1A3B3F3600AFC82D /* StarterNotificationChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarterNotificationChecker.m; sourceTree = "<group>"; };
+		ECD2474F1A3BE88B00AFC82D /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		ECE1FD301A3AC8EC00365E9F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		ECE1FD321A3AE11E00365E9F /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		ECE1FD341A3AEA1C00365E9F /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		ECE1FD351A3AEA1C00365E9F /* FRETypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRETypeConversion.h; sourceTree = "<group>"; };
+		ECE1FD361A3AEA1C00365E9F /* FRETypeConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRETypeConversion.m; sourceTree = "<group>"; };
+		ECE1FD8B1A3B281200365E9F /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
+		ECE1FD8C1A3B281200365E9F /* XGPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGPush.h; sourceTree = "<group>"; };
+		ECE1FD8D1A3B281200365E9F /* XGSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGSetting.h; sourceTree = "<group>"; };
+		ECE1FD911A3B34C000365E9F /* libXGSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libXGSDK.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2FE8191A3AA2ED0042E1A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD247501A3BE88B00AFC82D /* libsqlite3.0.dylib in Frameworks */,
+				ECE1FD331A3AE11E00365E9F /* libz.1.2.5.dylib in Frameworks */,
+				ECE1FD921A3B34C000365E9F /* libXGSDK.a in Frameworks */,
+				ECE1FD311A3AC8EC00365E9F /* CoreTelephony.framework in Frameworks */,
+				EC2FE8221A3AA2ED0042E1A4 /* CoreFoundation.framework in Frameworks */,
+				EC2FE82E1A3AA2ED0042E1A4 /* CFNetwork.framework in Frameworks */,
+				EC2FE8241A3AA2ED0042E1A4 /* UIKit.framework in Frameworks */,
+				EC2FE82A1A3AA2ED0042E1A4 /* SystemConfiguration.framework in Frameworks */,
+				EC2FE8201A3AA2ED0042E1A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC2FE8131A3AA2ED0042E1A4 = {
+			isa = PBXGroup;
+			children = (
+				ECE1FD911A3B34C000365E9F /* libXGSDK.a */,
+				ECE1FD8B1A3B281200365E9F /* ReleaseNotes.txt */,
+				ECE1FD8C1A3B281200365E9F /* XGPush.h */,
+				ECE1FD8D1A3B281200365E9F /* XGSetting.h */,
+				EC2FE8471A3AA2ED0042E1A4 /* CarrierPigeon */,
+				EC2FE81E1A3AA2ED0042E1A4 /* Frameworks */,
+				EC2FE81D1A3AA2ED0042E1A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2FE81D1A3AA2ED0042E1A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2FE81C1A3AA2ED0042E1A4 /* libCarrierPigeon.a */,
+				EC2FE83F1A3AA2ED0042E1A4 /* CarrierPigeon.ane */,
+				EC2FE8421A3AA2ED0042E1A4 /* DebugCarrierPigeonAIRApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC2FE81E1A3AA2ED0042E1A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECD2474F1A3BE88B00AFC82D /* libsqlite3.0.dylib */,
+				ECE1FD321A3AE11E00365E9F /* libz.1.2.5.dylib */,
+				ECE1FD301A3AC8EC00365E9F /* CoreTelephony.framework */,
+				EC2FE81F1A3AA2ED0042E1A4 /* Foundation.framework */,
+				EC2FE8211A3AA2ED0042E1A4 /* CoreFoundation.framework */,
+				EC2FE8231A3AA2ED0042E1A4 /* UIKit.framework */,
+				EC2FE8291A3AA2ED0042E1A4 /* SystemConfiguration.framework */,
+				EC2FE82D1A3AA2ED0042E1A4 /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC2FE8471A3AA2ED0042E1A4 /* CarrierPigeon */ = {
+			isa = PBXGroup;
+			children = (
+				ECD2474B1A3B3F3600AFC82D /* StarterNotificationChecker.h */,
+				ECD2474C1A3B3F3600AFC82D /* StarterNotificationChecker.m */,
+				ECE1FD341A3AEA1C00365E9F /* FlashRuntimeExtensions.h */,
+				ECE1FD351A3AEA1C00365E9F /* FRETypeConversion.h */,
+				ECE1FD361A3AEA1C00365E9F /* FRETypeConversion.m */,
+				EC2FE84A1A3AA2ED0042E1A4 /* CarrierPigeon.h */,
+				EC2FE84C1A3AA2ED0042E1A4 /* CarrierPigeon.m */,
+				EC2FE8481A3AA2ED0042E1A4 /* Supporting Files */,
+			);
+			path = CarrierPigeon;
+			sourceTree = "<group>";
+		};
+		EC2FE8481A3AA2ED0042E1A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC2FE8491A3AA2ED0042E1A4 /* CarrierPigeon-Prefix.pch */,
+				EC2FE84E1A3AA2ED0042E1A4 /* extension.xml */,
+				EC2FE84F1A3AA2ED0042E1A4 /* platformoptions.xml */,
+				EC2FE8501A3AA2ED0042E1A4 /* generateANE.sh */,
+				EC2FE8511A3AA2ED0042E1A4 /* debugIPA.sh */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EC2FE81A1A3AA2ED0042E1A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE1FD371A3AEA1C00365E9F /* FlashRuntimeExtensions.h in Headers */,
+				ECE1FD8F1A3B281200365E9F /* XGPush.h in Headers */,
+				ECE1FD381A3AEA1C00365E9F /* FRETypeConversion.h in Headers */,
+				ECE1FD901A3B281200365E9F /* XGSetting.h in Headers */,
+				EC2FE84B1A3AA2ED0042E1A4 /* CarrierPigeon.h in Headers */,
+				ECD2474D1A3B3F3600AFC82D /* StarterNotificationChecker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EC2FE81B1A3AA2ED0042E1A4 /* CarrierPigeon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2FE8541A3AA2ED0042E1A4 /* Build configuration list for PBXNativeTarget "CarrierPigeon" */;
+			buildPhases = (
+				EC2FE8181A3AA2ED0042E1A4 /* Sources */,
+				EC2FE8191A3AA2ED0042E1A4 /* Frameworks */,
+				EC2FE81A1A3AA2ED0042E1A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarrierPigeon;
+			productName = CarrierPigeon;
+			productReference = EC2FE81C1A3AA2ED0042E1A4 /* libCarrierPigeon.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EC2FE83E1A3AA2ED0042E1A4 /* CarrierPigeon.ane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2FE8571A3AA2ED0042E1A4 /* Build configuration list for PBXNativeTarget "CarrierPigeon.ane" */;
+			buildPhases = (
+				EC2FE83D1A3AA2ED0042E1A4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2FE8441A3AA2ED0042E1A4 /* PBXTargetDependency */,
+			);
+			name = CarrierPigeon.ane;
+			productName = CarrierPigeon.ane;
+			productReference = EC2FE83F1A3AA2ED0042E1A4 /* CarrierPigeon.ane */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EC2FE8411A3AA2ED0042E1A4 /* DebugCarrierPigeonAIRApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2FE85A1A3AA2ED0042E1A4 /* Build configuration list for PBXNativeTarget "DebugCarrierPigeonAIRApp" */;
+			buildPhases = (
+				EC2FE8401A3AA2ED0042E1A4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2FE8461A3AA2ED0042E1A4 /* PBXTargetDependency */,
+			);
+			name = DebugCarrierPigeonAIRApp;
+			productName = DebugCarrierPigeonAIRApp;
+			productReference = EC2FE8421A3AA2ED0042E1A4 /* DebugCarrierPigeonAIRApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC2FE8141A3AA2ED0042E1A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					EC2FE81B1A3AA2ED0042E1A4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EC2FE83E1A3AA2ED0042E1A4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EC2FE8411A3AA2ED0042E1A4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = EC2FE8171A3AA2ED0042E1A4 /* Build configuration list for PBXProject "CarrierPigeon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC2FE8131A3AA2ED0042E1A4;
+			productRefGroup = EC2FE81D1A3AA2ED0042E1A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2FE81B1A3AA2ED0042E1A4 /* CarrierPigeon */,
+				EC2FE83E1A3AA2ED0042E1A4 /* CarrierPigeon.ane */,
+				EC2FE8411A3AA2ED0042E1A4 /* DebugCarrierPigeonAIRApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EC2FE83D1A3AA2ED0042E1A4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "\n\t\t\t\t\t\t\t\tchmod 755 \"$PROJECT_DIR/$PROJECT_NAME/generateANE.sh\"\n\t\t\t\t\t\t\t\t\"$PROJECT_DIR/$PROJECT_NAME/generateANE.sh\"\n\t\t\t\t\t";
+		};
+		EC2FE8401A3AA2ED0042E1A4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "\n\t\t\t\t\t\t\t\tchmod 755 \"$PROJECT_DIR/$PROJECT_NAME/debugIPA.sh\"\n\t\t\t\t\t\t\t\t\"$PROJECT_DIR/$PROJECT_NAME/debugIPA.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2FE8181A3AA2ED0042E1A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD2474E1A3B3F3600AFC82D /* StarterNotificationChecker.m in Sources */,
+				EC2FE84D1A3AA2ED0042E1A4 /* CarrierPigeon.m in Sources */,
+				ECE1FD391A3AEA1C00365E9F /* FRETypeConversion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC2FE8441A3AA2ED0042E1A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2FE81B1A3AA2ED0042E1A4 /* CarrierPigeon */;
+			targetProxy = EC2FE8431A3AA2ED0042E1A4 /* PBXContainerItemProxy */;
+		};
+		EC2FE8461A3AA2ED0042E1A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2FE83E1A3AA2ED0042E1A4 /* CarrierPigeon.ane */;
+			targetProxy = EC2FE8451A3AA2ED0042E1A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC2FE8521A3AA2ED0042E1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = /Users/foodyi/AIRSDK15/include/;
+			};
+			name = Debug;
+		};
+		EC2FE8531A3AA2ED0042E1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = /Users/foodyi/AIRSDK15/include/;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC2FE8551A3AA2ED0042E1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DSTROOT = /tmp/CarrierPigeon.dst;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarrierPigeon/CarrierPigeon-Prefix.pch";
+				GCC_VERSION = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CarrierPigeon",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		EC2FE8561A3AA2ED0042E1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DSTROOT = /tmp/CarrierPigeon.dst;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarrierPigeon/CarrierPigeon-Prefix.pch";
+				GCC_VERSION = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/CarrierPigeon",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		EC2FE8581A3AA2ED0042E1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = /Users/foodyi/AIRSDK15;
+				ARCHS = "$(ARCHS_STANDARD)";
+				EXECUTABLE_EXTENSION = ane;
+				EXECUTABLE_PREFIX = "";
+				GCC_VERSION = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				NATIVEEXTENSION_SWC = /Users/foodyi/Workspace/flash/XGPushAir/bin/XGPushAir.swc;
+				PRODUCT_NAME = CarrierPigeon;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC2FE8591A3AA2ED0042E1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = /Users/foodyi/AIRSDK15;
+				ARCHS = "$(ARCHS_STANDARD)";
+				EXECUTABLE_EXTENSION = ane;
+				EXECUTABLE_PREFIX = "";
+				GCC_VERSION = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				NATIVEEXTENSION_SWC = /Users/foodyi/Workspace/flash/XGPushAir/bin/XGPushAir.swc;
+				PRODUCT_NAME = CarrierPigeon;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		EC2FE85B1A3AA2ED0042E1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = /Users/foodyi/AIRSDK15;
+				NATIVEEXTENSION_SWC = /Users/foodyi/Workspace/flash/XGPushAir/bin/XGPushAir.swc;
+				PRODUCT_NAME = DebugCarrierPigeonAIRApp;
+			};
+			name = Debug;
+		};
+		EC2FE85C1A3AA2ED0042E1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = /Users/foodyi/AIRSDK15;
+				NATIVEEXTENSION_SWC = /Users/foodyi/Workspace/flash/XGPushAir/bin/XGPushAir.swc;
+				PRODUCT_NAME = DebugCarrierPigeonAIRApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2FE8171A3AA2ED0042E1A4 /* Build configuration list for PBXProject "CarrierPigeon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2FE8521A3AA2ED0042E1A4 /* Debug */,
+				EC2FE8531A3AA2ED0042E1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2FE8541A3AA2ED0042E1A4 /* Build configuration list for PBXNativeTarget "CarrierPigeon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2FE8551A3AA2ED0042E1A4 /* Debug */,
+				EC2FE8561A3AA2ED0042E1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2FE8571A3AA2ED0042E1A4 /* Build configuration list for PBXNativeTarget "CarrierPigeon.ane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2FE8581A3AA2ED0042E1A4 /* Debug */,
+				EC2FE8591A3AA2ED0042E1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2FE85A1A3AA2ED0042E1A4 /* Build configuration list for PBXNativeTarget "DebugCarrierPigeonAIRApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2FE85B1A3AA2ED0042E1A4 /* Debug */,
+				EC2FE85C1A3AA2ED0042E1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC2FE8141A3AA2ED0042E1A4 /* Project object */;
+}
