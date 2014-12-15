@@ -35,8 +35,6 @@ XGPushHelper.getInstance().unRegisterDevice();
 ### 配置
 
 Objective-C的工程是根据xcode ane templete创建的，如果希望自己编译打包ANE，使用xcode导入oc工程后，
-
 选择 CarrierPigeon.ane的target，修改User-Defined中的 AIR_SDK_PATH以及NATIVEEXTENSION_SWC地址
-
 重新build即可。
 
