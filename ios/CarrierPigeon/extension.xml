@@ -29,7 +29,7 @@ either expressed or implied, of the FreeBSD Project.
 
 -->
 
-<extension xmlns="http://ns.adobe.com/air/extension/15.0">
+<extension xmlns="http://ns.adobe.com/air/extension/16.0">
 	<id>com.wityun.CarrierPigeon</id>
 	<versionNumber>1</versionNumber>
 	<platforms>

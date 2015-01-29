@@ -420,7 +420,7 @@
 		EC2FE8581A3AA2ED0042E1A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				AIR_SDK_PATH = /Users/foodyi/AIRSDK15;
+				AIR_SDK_PATH = /Users/foodyi/AIRSDK16;
 				ARCHS = "$(ARCHS_STANDARD)";
 				EXECUTABLE_EXTENSION = ane;
 				EXECUTABLE_PREFIX = "";
@@ -435,7 +435,7 @@
 		EC2FE8591A3AA2ED0042E1A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				AIR_SDK_PATH = /Users/foodyi/AIRSDK15;
+				AIR_SDK_PATH = /Users/foodyi/AIRSDK16;
 				ARCHS = "$(ARCHS_STANDARD)";
 				EXECUTABLE_EXTENSION = ane;
 				EXECUTABLE_PREFIX = "";
